@@ -1,10 +1,10 @@
 import React from 'react';
-import './about.styles.scss';
+import './portfolio.styles.scss';
 
-const About = () => {
+const Portfolio = () => {
   return (
-    <div>About</div>
+    <div>Portfolio</div>
   )
 }
 
-export default About;
+export default Portfolio;
