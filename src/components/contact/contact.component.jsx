@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './contact.styles.scss';
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_cgq2iu7', 'template_xlgasvy', form.current, '24RlqRczSqN2G_sJe')
+      .then((result) => {
+          console.log(`${result.text} message sent`);
+          alert("Message sent! Thank you for your contact. We'll get back to you as soon as possible.");
+      }, (error) => {
+          console.log(error.text);
+          alert("Sorry. Something went wrong. We couldn't send your message. Please try again later or contact us using another method in our Contact me section.");
+      });
+
+      e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>Get in touch</h5>
@@ -33,7 +52,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your Full Name' required />
           <input type="email" name="email" placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
