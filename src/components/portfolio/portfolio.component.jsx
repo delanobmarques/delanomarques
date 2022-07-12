@@ -7,7 +7,7 @@ import braziliansImg from '../../assets/brazilians.jpg';
 import swExplorerImg from '../../assets/sw-explorer.JPG';
 import newsImg from '../../assets/newsImg.JPG';
 import quizImg from '../../assets/quizImg.JPG';
-import weatherImg from '../../assets/portfolio2.jpg';
+import weatherImg from '../../assets/portfolio-default.png';
 
 const data = [
   {

@@ -1,8 +1,8 @@
-.experience__container {
+.skills__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    .experience__frontend, .experience__backend {
+    .skills__frontend, .skills__backend {
         background: var(--color-bg-variant);
         padding: 2.4rem 5rem;
         border-radius: 2rem;
@@ -18,15 +18,15 @@
             margin-bottom: 2rem;
             color: var(--color-primary);
         }
-        .experience__content {
+        .skills__content {
             display: grid;
             grid-template-columns: 1fr 1fr;
             row-gap: 2rem ;
             
-            .experience__details {
+            .skills__details {
                 display: flex;
                 gap: 1rem;
-                .experience__details-icon {
+                .skills__details-icon {
                     margin-top: 6px;
                     color: var(--color-primary);
                 }
@@ -37,16 +37,16 @@
 
 /********** MEDIA QUERIES - MEDIUM DEVICES **********/
 @media screen and (max-width: 1024px) {
-    .experience__container {
+    .skills__container {
         grid-template-columns: 1fr;
-        .experience__frontend, .experience__backend {
+        .skills__frontend, .skills__backend {
             width: 80%;
             padding: 2rem;
             margin: 0 auto;
             h3 {
                 margin-bottom: 1rem;
             }
-            .experience__content {
+            .skills__content {
                 padding: 1rem;
             }
         }
@@ -55,9 +55,9 @@
 
 /********** MEDIA QUERIES - SMALL DEVICES **********/
 @media screen and (max-width: 600px) {
-    .experience__container {
+    .skills__container {
         gap: 1rem;
-        .experience__frontend, .experience__backend {
+        .skills__frontend, .skills__backend {
             width: 100%;
             padding: 2rem 1rem;
         }

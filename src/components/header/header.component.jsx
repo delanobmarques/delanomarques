@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.styles.scss';
 import CtaButtons from './cta-buttons-component';
-import delano_picture_01 from '../../assets/delano-marques-01.png';
+import delano_picture_01 from '../../assets/delano-marques.png';
 import HeaderSocials from './header-socials.component';
 
 const Header = () => {

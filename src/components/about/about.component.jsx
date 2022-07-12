@@ -2,7 +2,7 @@ import React from 'react';
 import './about.styles.scss';
 import aboutPicture from '../../assets/about-me.png';
 import {FaAward} from 'react-icons/fa';
-import {MdVolunteerActivism} from 'react-icons/md';
+import {MdOutlineLanguage} from 'react-icons/md';
 import {VscFolderLibrary} from 'react-icons/vsc';
 
 const About = () => {
@@ -22,25 +22,24 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>15+ Years Working</small>
+              <small>15+ years in higher education as an instructor and leader in the IT field</small>
             </article>
-
-            <article className="about__card">
-              <MdVolunteerActivism className='about__icon'/>
-              <h5>Volunteer</h5>
-              <small>Volunteer work...</small>
-            </article>
-
             <article className="about__card">
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>Different technologies</small>
+              <small>Worked with different technologies (front-end and back-end)</small>
+            </article>
+            <article className="about__card">
+              <MdOutlineLanguage className='about__icon'/>
+              <h5>Languages</h5>
+              <small>English and Portuguese</small>
             </article>
           </div>
 
           <p>
             Father, husband, student, learning and IT enthusiastic. 
-            Professional with extensive academic and management experience, currently updating technical skills at NSCC, looking for an opportunity in the local IT industry as a Web Developer
+            I'm a Web Developer with experience in teaching, designing, implementing and supervising undergraduate IT programs (face-to-face and distance learning). 
+            I recently upgraded my technical skills at NSCC (Web Programming Program). During the last few years, I worked on different projects using different technologies, e.g. RESTful APIs, React JS, Express JS, Node JS, Axios, AWS, Azure, Heroku, Docker, Laravel, Drupal, Bootstrap, MySQL, and Mongo DB, among other technologies.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's talk</a>
