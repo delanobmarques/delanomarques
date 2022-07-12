@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <nav>
       <Tooltip title="Home" placement="top" arrow>
-        <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><FcHome/></a>
+        <a href="#home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><FcHome/></a>
       </Tooltip>
       <Tooltip title="About" placement="top" arrow>
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FcBusinessman/></a>
