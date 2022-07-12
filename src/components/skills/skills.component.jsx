@@ -17,35 +17,35 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Advanced</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
           </div>
@@ -60,35 +60,35 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>NodeJs</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>Java</h4>
-                <small className="text-light">Intermediate</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>MongoDb</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>Firebase</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon"/>
               <div>
                 <h4>PHP</h4>
-                <small className="text-light">skillsd</small>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
           </div>
