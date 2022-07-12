@@ -38,7 +38,7 @@ const data = [
     id: 4,
     image: flighMapImg,
     title: "Flight Map",
-    description:'Full stack web app built using MERN stack.?????? ????????? ::::::::',
+    description:'Full stack web app built using MERN stack.',
     github: "https://github.com/delanobmarques/",
     liveDemo: "https://delanomarques.netlify.app/assets/projects/flightmap/index.html"
   },
@@ -47,7 +47,7 @@ const data = [
     image: quizImg,
     title: "Quiz App",
     description:"Quiz web app using Open Trivia API built with React.js. Features and technniques used in this project: Axios, Redux style state management; React Material-UI.",
-    github: "https://github.com/delanobmarques/",
+    github: "https://github.com/delanobmarques/quiz-app",
     liveDemo: "https://delanomarques.netlify.app"
   },
   {
@@ -56,7 +56,7 @@ const data = [
     title: "News App",
     description:"News web app using News API built with React.js. Features and technniques used in this project include Axios and Context API.",
     github: "https://github.com/delanobmarques/news-webapp",
-    liveDemo: "https://delanomarques.netlify.app"
+    liveDemo: "https://github.com/delanobmarques/news-webapp"
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ const data = [
     title: "Weather App",
     description:"Weather web app using OpenWeatherMap API built with React.js and axios.",
     github: "https://github.com/delanobmarques/weather-app-react",
-    liveDemo: "https://delanomarques.netlify.app"
+    liveDemo: "https://github.com/delanobmarques/weather-app-react"
   },
   {
     id: 8,
