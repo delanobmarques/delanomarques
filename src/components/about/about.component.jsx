@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.styles.scss';
-import aboutPicture from '../../assets/delano-about2.png';
+import aboutPicture from '../../assets/about-me.png';
 import {FaAward} from 'react-icons/fa';
 import {MdVolunteerActivism} from 'react-icons/md';
 import {VscFolderLibrary} from 'react-icons/vsc';

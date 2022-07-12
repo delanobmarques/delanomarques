@@ -19,7 +19,7 @@
     &-image {
         border-radius: 2rem;
         overflow: hidden;
-        transform: rotate(15deg);
+        transform: rotate(10deg);
         transition: var(--transition);
         &:hover {
             transform: rotate(0);
@@ -74,7 +74,7 @@
         gap:0;
         .about__me {
             width: 50%;
-            margin: 2rem auto 5.5rem;
+            margin: 2rem auto 4rem;
         }
         .about__content {
             p {
@@ -89,7 +89,7 @@
     .about__container {        
         .about__me {
             width: 65%;
-            margin: 0 auto 4.5rem;
+            margin: 0 auto 3rem;
         }
         .about__content {
             text-align: center;

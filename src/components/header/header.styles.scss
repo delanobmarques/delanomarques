@@ -30,7 +30,7 @@ header {
     &::after {
         content: '';
         width: 1px;
-        height: 3rem;
+        height: 2rem;
         background: var(--color-primary);
     }
 }
@@ -39,7 +39,7 @@ header {
 .me {
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
-    height: 23.5rem;
+    height: 27rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -55,7 +55,7 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 /********** MEDIA QUERIES - MEDIUM DEVICES **********/
