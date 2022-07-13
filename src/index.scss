@@ -11,19 +11,62 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0.4);
-    --color-light: #fff;
+    /**** COLOR SCHEMES ****/
+    /*Default*/
+    // --color-bg: #1f1f38;
+    // --color-bg-variant: #2c2c6c;
+    // --color-primary: #4db5ff;
+    // --color-primary-variant: rgba(77,181,255,0.4);
+    // --color-light: #fff;
+    // --color-light-variant: rgba(255,255,255,0.6);
+
+    // Jean-Baptiste Kaloya Portfolio
+    // --color-bg: #0F2557;
+    // --color-bg-variant: #150734;
+    // --color-primary: #4B9FE1;
+    // --color-primary-variant: rgba(55, 120, 194, 1.4);
+    // --color-light: #7ED5EA;
+    // --color-light-variant: rgba(99,188,229,0.6);
+
+    /*Qvartz*/
+    // --color-bg: #2A3166;
+    // --color-bg-variant: #444d93;
+    // --color-primary: #EE7879;
+    // --color-primary-variant: rgba(244, 171, 170,.4);
+    // --color-light: #CAE7DF;
+    // --color-light-variant: rgba(202, 231, 223,0.6);
+
+    /*Scheme:Puerto Mate*/
+    --color-bg: #01345B;
+    --color-bg-variant: #0a245b;
+    --color-primary: #5CE0D8;
+    --color-primary-variant: rgba(92,224,216,0.4);
+    --color-light: #f6d77b;
     --color-light-variant: rgba(255,255,255,0.6);
 
-    // --color-bg: #01345B;
-    // --color-bg-variant: #6688CC;
-    // --color-primary: #5CE0D8;
-    // --color-primary-variant: rgba(92,224,216,0.4);
-    // --color-light: #FFCF43;
-    // --color-light-variant: rgba(255,255,255,0.6);
+    /* Comwboy Bike */
+    // --color-bg: #000;
+    // --color-bg-variant: #474747;
+    // --color-primary: #F8E5E5;
+    // --color-primary-variant: rgba(250,37,94,0.4);
+    // --color-light: #C39EA0;
+    // --color-light-variant: rgba(195,158,160,1);
+
+    /* Proud & Tom */
+    // --color-bg: #1F3044;
+    // --color-bg-variant: #2d4661;
+    // --color-primary: #FB9039;
+    // --color-primary-variant: rgba(251,144,57,0.4);
+    // --color-light: #ffffff;
+    // --color-light-variant: rgba(208, 209, 211, 0.6);
+
+    /*I Weigh Community*/
+    // --color-bg: #394F8A;
+    // --color-bg-variant: #4A5FC1;
+    // --color-primary: #E1FCFD;
+    // --color-primary-variant: #9CF6FB;
+    // --color-light: #E5B9A8;
+    // --color-light-variant: #EAD6CD;
 
     --transition: all 400ms ease;
 
