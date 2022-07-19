@@ -7,7 +7,7 @@ import braziliansImg from '../../assets/brazilians.jpg';
 import swExplorerImg from '../../assets/sw-explorer.JPG';
 import newsImg from '../../assets/newsImg.JPG';
 import quizImg from '../../assets/quizImg.JPG';
-import weatherImg from '../../assets/portfolio-default.png';
+import weatherImg from '../../assets/weather-app.jpg';
 
 const data = [
   {
@@ -62,9 +62,9 @@ const data = [
     id: 7,
     image: weatherImg,
     title: "Weather App",
-    description:"Weather web app using OpenWeatherMap API built with React.js and axios.",
-    github: "https://github.com/delanobmarques/weather-app-react",
-    liveDemo: "https://github.com/delanobmarques/weather-app-react"
+    description:"Weather web app using OpenWeatherMap API built with React.js. Features and technniques used in this project include Tailwind CSS, luxon, unicons, and react-toastify.",
+    github: "https://github.com/delanobmarques/open-weather-map",
+    liveDemo: "https://weatherapp-forecast.netlify.app/"
   },
   {
     id: 8,
